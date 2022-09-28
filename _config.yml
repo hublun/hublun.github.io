@@ -22,9 +22,10 @@ author: CJ Duan
 navbar-links:
   About Me: "aboutme"
   Resources:
+    - OverLeaf: "http://www.overleaf.com"
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  DRC Lab: "https://drclab.github.io"
 
 ################
 # --- Logo --- #
