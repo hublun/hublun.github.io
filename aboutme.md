@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About Me
 subtitle: Ph.D, Founder, Chief Data Scientist @DRC
 ---
 
@@ -8,8 +8,9 @@ My name is C.J. Duan. I have the following qualities:
 
 - 100% Bayesian
 - PPC = Posterior Predictive Check
-- Mixture Modeling
+- Mixture Modeling: Global and Local parameters
 - HMM = Hidden Markov Model
+- LDS = Linear Dynamic System (Kalman Filter, Gaussian Process)
 
 What else do you need?
 
