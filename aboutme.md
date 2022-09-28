@@ -19,8 +19,11 @@ What else do you need?
 **Stan**
 
 ~~~
-var foo = function(x) {
-  return(x + 5);
+data {
+  vector[N] input;
 }
-foo(3)
+
+model {
+    y ~ normal(mu, sigma);
+}
 ~~~
