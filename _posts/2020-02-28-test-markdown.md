@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
+title: Media Mix Modeling
+subtitle: Chanllenges from colinearity and granularity
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
