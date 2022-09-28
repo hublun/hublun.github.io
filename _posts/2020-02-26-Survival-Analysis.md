@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Survival Analysis with Stan
-subtitle: Excerpt from Soulshaping by Jeff Brown
+subtitle: Time to Event with Censorship
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
