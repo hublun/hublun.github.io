@@ -21,7 +21,10 @@ author: CJ Duan
 
 navbar-links:
   About Me: "aboutme"
-  Projects: "projects"
+  Projects:
+    - Home Field Advantage:
+    - MMM:
+    - LDA:
   Publications: "publication"
   Resources:
     - OverLeaf: "http://www.overleaf.com"
