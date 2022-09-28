@@ -17,3 +17,10 @@ What else do you need?
 ### My story
 
 **Stan**
+
+~~~
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+~~~
