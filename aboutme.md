@@ -1,13 +1,15 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Ph.D, Founder, Chief Data Scientist @DRC
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is C.J. Duan. I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- 100% Bayesian
+- PPC = Posterior Predictive Check
+- Mixture Modeling
+- HMM = Hidden Markov Model
 
 What else do you need?
 
