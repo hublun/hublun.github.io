@@ -29,7 +29,7 @@ navbar-links:
   Publications: "publication"
   Resources:
     - OverLeaf: "http://www.overleaf.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Gelman's Blog: "https://statmodeling.stat.columbia.edu/"
     - Stan: "https://mc-stan.org/users/documentation/case-studies"
     - Blei Lab: "https://github.com/Blei-Lab"
   DRC Lab: "https://drclab.github.io"
