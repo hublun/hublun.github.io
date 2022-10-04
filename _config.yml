@@ -28,7 +28,8 @@ navbar-links:
     - Survival Analysis:
   Publications: "publications"
   Resources:
-    - OverLeaf: "http://www.overleaf.com"
+    - MCI Talk: "https://youtu.be/vKK_1GvaG0Y"
+    - Autonomous Intelligence: "https://youtu.be/VRzvpV9DZ8Y"
     - Gelman's Blog: "https://statmodeling.stat.columbia.edu/"
     - Stan: "https://mc-stan.org/users/documentation/case-studies"
     - Blei Lab: "https://github.com/Blei-Lab"
