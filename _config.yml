@@ -26,7 +26,7 @@ navbar-links:
     - MMM:
     - LDA:
     - Survival Analysis:
-  Publications: "publication"
+  Publications: "publications"
   Resources:
     - OverLeaf: "http://www.overleaf.com"
     - Gelman's Blog: "https://statmodeling.stat.columbia.edu/"
