@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Selected Publications
-subtitle: C.J. Duan, Ph.D, Owner, Chief Data Scientist @DRC
+subtitle: C.J. Duan, Ph.D, Chief Data Scientist @DRC
 ---
 
 | Title | Journal |DOI |
