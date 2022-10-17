@@ -153,7 +153,7 @@ page-img: "/assets/img/bgimage.png"
 #################################
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-1945730-1"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
 #google_analytics: ""
