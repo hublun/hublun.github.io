@@ -156,11 +156,8 @@ page-img: "/assets/img/bgimage.png"
 gtag: "UA-1945730-1"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-<<<<<<< HEAD
 google_analytics: "UA-1945730-1"
-=======
-google_analytics: "1945730"
->>>>>>> 6655732 (gtag)
+
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
