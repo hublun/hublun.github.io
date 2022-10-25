@@ -20,7 +20,7 @@ author: CJ Duan
 ###############################################
 
 navbar-links:
-  About Me: "About Me"
+  About Me: "aboutme"
   Projects:
     - Home Field Advantage: "https://www.tandfonline.com/doi/full/10.1080/2573234X.2020.1854625"
     - MMM: "https://drclab.github.io/ci/"
