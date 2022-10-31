@@ -20,7 +20,7 @@ author: CJ Duan
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  DRC Lab: "https://drclab.github.io"
   Projects:
     - Home Field Advantage: "https://www.tandfonline.com/doi/full/10.1080/2573234X.2020.1854625"
     - MMM: "https://drclab.github.io/ci/"
@@ -35,7 +35,7 @@ navbar-links:
     - Gelman's Blog: "https://statmodeling.stat.columbia.edu/"
     - Stan: "https://mc-stan.org/users/documentation/case-studies"
     - Blei Lab: "https://github.com/Blei-Lab"
-  DRC Lab: "https://drclab.github.io"
+  About Me: "aboutme"
 
 ################
 # --- Logo --- #
