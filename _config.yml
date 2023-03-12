@@ -155,17 +155,17 @@ page-img: "/assets/img/bgimage.png"
 #################################
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "UA-1945730-1"
+gtag: "G-2NYFDDXM7Z"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-google_analytics: "UA-1945730-1"
+google_analytics: "G-2NYFDDXM7Z"
 
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "G-2NYFDDXM7Z"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
