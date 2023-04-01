@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ChatDulun - chatGPT based tutorBot dedicated to HE Business Education
-subtitle: Viral Linage, Bayesian Multinomial Logistic Regression, Pyro, SVI
+title: ChatGPT and Education
+subtitle: ChatGPT Based College and Graduate Business Education
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/classroom.jpeg
 share-img: /assets/img/classroom.jpeg
@@ -10,15 +10,9 @@ tags: [Pyro, SVI]
 
 ___
 
-**Analysis of 6.4 million SARS-CoV-2 genomes identifies mutations associated with fitness**
 
-by FRITZ OBERMEYER
-
-**Abstract**:
-
-
-
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*wohx1bGrN0tRuAZrak5dOg.png)
 
 [HuggingFace Space](https://drclab-chatdulun.hf.space/)
 
-[Code](https://zenodo.org/record/6399987)
+[Medium Article](https://medium.com/age-of-awareness/chatgpt-and-education-bdc46485fdc3)
