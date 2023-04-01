@@ -4,7 +4,7 @@ title: ChatDulun - chatGPT based tutorBot dedicated to HE Business Education
 subtitle: Viral Linage, Bayesian Multinomial Logistic Regression, Pyro, SVI
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/sars.jpg
-share-img: /assets/img/path.jpg
+share-img: /assets/img/classroom.jpeg
 tags: [Pyro, SVI]
 ---
 
