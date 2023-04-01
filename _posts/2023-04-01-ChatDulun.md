@@ -5,7 +5,7 @@ subtitle: ChatGPT Based College and Graduate Business Education
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/classroom.jpeg
 share-img: /assets/img/classroom.jpeg
-tags: [Pyro, SVI]
+tags: [Higher Education, ChatGPT, Business School]
 ---
 
 ___
