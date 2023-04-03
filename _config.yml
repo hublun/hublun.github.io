@@ -22,8 +22,8 @@ author: CJ Duan
 navbar-links:
   ChatDulun: "https://drclab-chatdulun.hf.space/"
   Projects:
-    - Home Field Advantage: "https://www.tandfonline.com/doi/full/10.1080/2573234X.2020.1854625"
-    - MMM: "https://drclab.github.io/ci/"
+    - Hugging Face ASR: "https://drclab-asr.hf.space"
+    - Media Mix Model: "https://drclab.github.io/ci/"
     - LDA: "https://drclab.github.io/lda/"
     - Survival Analysis: "https://drclab.github.io/bayesian/"
   Publications: "publications"
