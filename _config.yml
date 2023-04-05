@@ -24,7 +24,7 @@ navbar-links:
   Projects:
     - Hugging Face ASR: "https://drclab-asr.hf.space"
     - Media Mix GPT: "https://drclab.github.io/ci/"
-    - LDA: "https://drclab.github.io/lda/"
+    - Dulun-TTS: "https://drclab-duluntts.hf.space/"
     #- Survival Analysis: "https://drclab.github.io/bayesian/"
   Publications: "publications"
   Resources:
