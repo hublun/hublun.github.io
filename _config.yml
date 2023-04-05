@@ -21,20 +21,20 @@ author: CJ Duan
 
 navbar-links:
   Dulun-Chat: "https://drclab-chatdulun.hf.space/"
-  Projects:
-    - Dulun-ASR: "https://drclab-asr.hf.space"
-    - Dulun-MMM: "https://drclab.github.io/ci/"
-    - Dulun-TTS: "https://drclab-duluntts.hf.space/"
+  #Projects:
+  Dulun-ASR: "https://drclab-asr.hf.space"
+  Dulun-MMM: "https://drclab.github.io/ci/"
+  Dulun-TTS: "https://drclab-duluntts.hf.space/"
     #- Survival Analysis: "https://drclab.github.io/bayesian/"
-  Publications: "publications"
-  Resources:
-    - Pyro: "http://pyro.ai/examples/"
-    - GPyTorch: "https://docs.gpytorch.ai/en/latest/"
-    - MCI Talk: "https://youtu.be/vKK_1GvaG0Y"
-    - Autonomous Intelligence: "https://youtu.be/VRzvpV9DZ8Y"
-    - Gelman's Blog: "https://statmodeling.stat.columbia.edu/"
-    - Stan: "https://mc-stan.org/users/documentation/case-studies"
-    - Blei Lab: "https://github.com/Blei-Lab"
+  #Publications: "publications"
+  # Resources:
+  #   - Pyro: "http://pyro.ai/examples/"
+  #   - GPyTorch: "https://docs.gpytorch.ai/en/latest/"
+  #   - MCI Talk: "https://youtu.be/vKK_1GvaG0Y"
+  #   - Autonomous Intelligence: "https://youtu.be/VRzvpV9DZ8Y"
+  #   - Gelman's Blog: "https://statmodeling.stat.columbia.edu/"
+  #   - Stan: "https://mc-stan.org/users/documentation/case-studies"
+  #   - Blei Lab: "https://github.com/Blei-Lab"
   About Me: "aboutme"
 
 ################
