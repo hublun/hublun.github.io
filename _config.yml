@@ -20,10 +20,10 @@ author: CJ Duan
 ###############################################
 
 navbar-links:
-  ChatDulun: "https://drclab-chatdulun.hf.space/"
+  Dulun-Chat: "https://drclab-chatdulun.hf.space/"
   Projects:
     - Dulun-ASR: "https://drclab-asr.hf.space"
-    - Dulun-MediaMix: "https://drclab.github.io/ci/"
+    - Dulun-MMM: "https://drclab.github.io/ci/"
     - Dulun-TTS: "https://drclab-duluntts.hf.space/"
     #- Survival Analysis: "https://drclab.github.io/bayesian/"
   Publications: "publications"
