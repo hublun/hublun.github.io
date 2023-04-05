@@ -23,9 +23,9 @@ navbar-links:
   ChatDulun: "https://drclab-chatdulun.hf.space/"
   Projects:
     - Hugging Face ASR: "https://drclab-asr.hf.space"
-    - Media Mix Model: "https://drclab.github.io/ci/"
+    - Media Mix GPT: "https://drclab.github.io/ci/"
     - LDA: "https://drclab.github.io/lda/"
-    - Survival Analysis: "https://drclab.github.io/bayesian/"
+    #- Survival Analysis: "https://drclab.github.io/bayesian/"
   Publications: "publications"
   Resources:
     - Pyro: "http://pyro.ai/examples/"
