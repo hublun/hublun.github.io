@@ -28,7 +28,7 @@ navbar-links:
       - Dulun-CHAT: "https://drclab-chatdulun.hf.space/"
   #Publications: "publications"
   Dulun-MMM: "https://drclab.github.io/ci/"  
-  Dulun-SEQ: 
+  Dulun-HMM: 
   #Resources:
   #   - Pyro: "http://pyro.ai/examples/"
   #   - GPyTorch: "https://docs.gpytorch.ai/en/latest/"
