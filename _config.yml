@@ -20,14 +20,16 @@ author: CJ Duan
 ###############################################
 
 navbar-links:
-  Dulun-Chat: "https://drclab-chatdulun.hf.space/"
+  Dulun-EDU: 
   #Projects:
-  Dulun-ASR: "https://drclab-asr.hf.space"
-  Dulun-MMM: "https://drclab.github.io/ci/"
-  Dulun-TTS: "https://drclab-duluntts.hf.space/"
-    #- Survival Analysis: "https://drclab.github.io/bayesian/"
+      - Dulun-ASR: "https://drclab-asr.hf.space"
+
+      - Dulun-TTS: "https://drclab-duluntts.hf.space/"
+      - Dulun-CHAT: "https://drclab-chatdulun.hf.space/"
   #Publications: "publications"
-  # Resources:
+  Dulun-MMM: "https://drclab.github.io/ci/"  
+  Dulun-SEQ: 
+  #Resources:
   #   - Pyro: "http://pyro.ai/examples/"
   #   - GPyTorch: "https://docs.gpytorch.ai/en/latest/"
   #   - MCI Talk: "https://youtu.be/vKK_1GvaG0Y"
