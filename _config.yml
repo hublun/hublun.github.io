@@ -25,13 +25,13 @@ navbar-links:
       - Dulun-ASR: "https://drclab-asr.hf.space"
 
       - Dulun-TTS: "https://drclab-duluntts.hf.space/"
-      - Dulun-CHAT: "https://drclab-chatdulun.hf.space/"
+      - Dulun-BOT: "https://drclab-chatdulun.hf.space/"
   #Publications: "publications"
   Dulun-MMM: "https://drclab.github.io/ci/"  
-  Dulun-HMM: 
+  Dulun-SEQ: 
   #Resources:
-  #   - Pyro: "http://pyro.ai/examples/"
-  #   - GPyTorch: "https://docs.gpytorch.ai/en/latest/"
+    #  - DNA: "http://pyro.ai/examples/"
+    #  - RNA: "https://docs.gpytorch.ai/en/latest/"
   #   - MCI Talk: "https://youtu.be/vKK_1GvaG0Y"
   #   - Autonomous Intelligence: "https://youtu.be/VRzvpV9DZ8Y"
   #   - Gelman's Blog: "https://statmodeling.stat.columbia.edu/"
