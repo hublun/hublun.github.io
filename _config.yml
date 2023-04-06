@@ -22,13 +22,17 @@ author: CJ Duan
 navbar-links:
   Dulun-EDU: 
   #Projects:
-      - Dulun-ASR: "https://drclab-asr.hf.space"
+      - ASR: "https://drclab-asr.hf.space"
 
-      - Dulun-TTS: "https://drclab-duluntts.hf.space/"
-      - Dulun-BOT: "https://drclab-chatdulun.hf.space/"
+      - TTS: "https://drclab-duluntts.hf.space/"
+      - BOT: "https://drclab-chatdulun.hf.space/"
   #Publications: "publications"
-  Dulun-MMM: "https://drclab.github.io/ci/"  
-  Dulun-SEQ: 
+  Dulun-CPG:
+    - MMM:
+    - RMM:
+    - A/B:
+  Dulun-OMICS:
+  Dulun-FinTech: 
   #Resources:
     #  - DNA: "http://pyro.ai/examples/"
     #  - RNA: "https://docs.gpytorch.ai/en/latest/"
