@@ -32,7 +32,7 @@ navbar-links:
     - RMM:
     - A/B:
   Dulun-OMICS:
-  Dulun-FinTech: 
+  #Dulun-FinTech: 
   #Resources:
     #  - DNA: "http://pyro.ai/examples/"
     #  - RNA: "https://docs.gpytorch.ai/en/latest/"
