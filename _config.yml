@@ -24,7 +24,7 @@ navbar-links:
   #Projects:
       - Audio Box: "https://audiobox.metademolab.com/capabilities/tts_in_context"
 
-      - TTS: "https://drclab-duluntts.hf.space/"
+      - Mistral: "https://console.mistral.ai/"
       - BOT: "https://drclab-chatdulun.hf.space/"
   #Publications: "publications"
   Dulun-CPG:
