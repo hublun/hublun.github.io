@@ -22,7 +22,7 @@ author: CJ Duan
 navbar-links:
   Dulun-HED: 
   #Projects:
-      - ASR: "https://drclab-asr.hf.space"
+      - Audio Box: "https://audiobox.metademolab.com/capabilities/tts_in_context"
 
       - TTS: "https://drclab-duluntts.hf.space/"
       - BOT: "https://drclab-chatdulun.hf.space/"
