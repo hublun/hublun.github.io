@@ -25,7 +25,7 @@ navbar-links:
       - Audio Box: "https://audiobox.metademolab.com/capabilities/tts_in_context"
 
       - Mistral: "https://console.mistral.ai/"
-      - BOT: "https://drclab-chatdulun.hf.space/"
+      - Gemini / Bard: "https://bard.google.com/chat"
   #Publications: "publications"
   Dulun-CPG:
     - MMM:
