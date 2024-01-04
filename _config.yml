@@ -27,10 +27,9 @@ navbar-links:
       - Mistral: "https://console.mistral.ai/"
       - Gemini / Bard: "https://bard.google.com/chat"
   #Publications: "publications"
-  Dulun-CPG:
-    - MMM:
-    - RMM:
-    - A/B:
+  Dulun-LLM:
+    - OpenLLM: "https://www.bentoml.com/blog/building-an-intelligent-query-response-system-with-llamaindex-and-openllm"
+
   Dulun-OMICS:
   #Dulun-FinTech: 
   #Resources:
