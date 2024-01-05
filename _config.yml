@@ -22,6 +22,7 @@ author: CJ Duan
 navbar-links:
   Dulun-HED: 
   #Projects:
+      - Learn-GPT: "https://learngpt.art/new"
       - Audio Box: "https://audiobox.metademolab.com/capabilities/tts_in_context"
 
       - Mistral: "https://console.mistral.ai/"
