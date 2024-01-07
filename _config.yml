@@ -23,15 +23,15 @@ navbar-links:
   Dulun-HED: 
   #Projects:
       - Learn-GPT: "https://learngpt.art/new"
-      - Audio Box: "https://audiobox.metademolab.com/capabilities/tts_in_context"
+   
 
-      - Mistral: "https://console.mistral.ai/"
-      - Gemini / Bard: "https://bard.google.com/chat"
   #Publications: "publications"
   Dulun-LLM:
     - OpenLLM: "https://www.bentoml.com/blog/building-an-intelligent-query-response-system-with-llamaindex-and-openllm"
-
-  Dulun-OMICS:
+    - Audio Box: "https://audiobox.metademolab.com/capabilities/tts_in_context"
+    - Mistral: "https://console.mistral.ai/"
+    - Triton: "https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/nvidia_triton.ipynb"
+  #Dulun-OMICS:
   #Dulun-FinTech: 
   #Resources:
     #  - DNA: "http://pyro.ai/examples/"
@@ -41,9 +41,10 @@ navbar-links:
   #   - Gelman's Blog: "https://statmodeling.stat.columbia.edu/"
   #   - Stan: "https://mc-stan.org/users/documentation/case-studies"
   #   - Blei Lab: "https://github.com/Blei-Lab"
+  DRC Lab: "https://drclab.github.io/"
   About DRC: 
     - HF Site: "https://drclab-dulun-store.static.hf.space"
-    - DRC Lab: "https://drclab.github.io/"
+ 
 
 ################
 # --- Logo --- #
