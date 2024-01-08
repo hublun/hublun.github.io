@@ -27,6 +27,7 @@ navbar-links:
 
   #Publications: "publications"
   Dulun-LLM:
+    - LlamaIndex: "https://docs.llamaindex.ai/en/latest/examples/pipeline/query_pipeline.html#"
     - OpenLLM: "https://www.bentoml.com/blog/building-an-intelligent-query-response-system-with-llamaindex-and-openllm"
     - Audio Box: "https://audiobox.metademolab.com/capabilities/tts_in_context"
     - Mistral: "https://console.mistral.ai/"
