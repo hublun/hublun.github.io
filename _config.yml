@@ -20,7 +20,7 @@ author: CJ Duan
 ###############################################
 
 navbar-links:
-  ODE: 
+  PharmacODE: 
   #Projects:
       #- Learn-GPT: "https://learngpt.art/new"
     - SEIR: "https://mc-stan.org/users/documentation/case-studies/boarding_school_case_study.html"
