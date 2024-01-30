@@ -20,10 +20,14 @@ author: CJ Duan
 ###############################################
 
 navbar-links:
-  Dulun-HED: 
+  ODE: 
   #Projects:
-      - Learn-GPT: "https://learngpt.art/new"
-   
+      #- Learn-GPT: "https://learngpt.art/new"
+    - SEIR: "https://mc-stan.org/users/documentation/case-studies/boarding_school_case_study.html"
+    - PKPD: "https://mc-stan.org/events/stancon2017-notebooks/stancon2017-margossian-gillespie-ode.html"
+    - DDM: "https://www.page-meeting.org/?abstract=3200"
+    - PBPK: "https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12926"
+    - Torsten: "https://arxiv.org/abs/2109.10184" 
 
   #Publications: "publications"
   Dulun-LLM:
