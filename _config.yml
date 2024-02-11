@@ -36,6 +36,7 @@ navbar-links:
     - Audio Box: "https://audiobox.metademolab.com/capabilities/tts_in_context"
     - Mistral: "https://console.mistral.ai/"
     - Triton: "https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/nvidia_triton.ipynb"
+    - Must-MIMIC-IV: "https://arxiv.org/abs/2311.07608"
   #Dulun-OMICS:
   #Dulun-FinTech: 
   #Resources:
