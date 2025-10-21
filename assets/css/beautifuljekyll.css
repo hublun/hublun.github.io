@@ -5,16 +5,18 @@ layout: null
 @import url("pygment_highlights.css");
 
 :root {
-  --brand-ink: #6b46c1;
+  --brand-ink: #111111;
   --brand-slate: #1b1b1d;
   --brand-muted: #555555;
   --brand-sky: #1a3e73;
-  --brand-indigo: #553c9a;
+  --brand-indigo: #326891;
   --brand-sand: #f8f7f3;
   --brand-mist: #e2e2e2;
   --brand-white: #ffffff;
   --brand-red: #b30000;
   --brand-green: #2a7a4b;
+  --brand-purple: #6b46c1;
+  --brand-purple-dark: #553c9a;
 }
 
 /* --- General --- */
@@ -164,7 +166,7 @@ img {
 .nyt-topline-center {
   font-weight: 700;
   font-size: 0.85rem;
-  color: #6b46c1;
+  color: #6b46c1 !important;
 }
 
 .nyt-market-positive {
