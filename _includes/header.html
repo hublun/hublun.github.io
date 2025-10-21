@@ -86,7 +86,7 @@
           <p class="front-rail-summary">{{ sidebar.summary }}</p>
           {% endif %}
           {% if sidebar.url %}
-          <a class="front-link" href="{{ sidebar.url | relative_url }}">Read more →</a>
+          <a class="front-link" href="{{ sidebar.url | relative_url }}">{% if sidebar.link_text %}{{ sidebar.link_text }}{% else %}Read more →{% endif %}</a>
           {% endif %}
         </aside>
         {% endif %}
