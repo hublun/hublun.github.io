@@ -1,0 +1,12 @@
+- name: Pharma / Healthcare
+  summary: >
+    Accelerate clinical development, pharmacometrics, and care delivery analytics with models that
+    stand up to regulatory scrutiny and unlock faster patient impact.
+- name: AI Agents
+  summary: >
+    Deploy responsible, human-in-the-loop agentic systems that augment knowledge workers, automate
+    research synthesis, and integrate with existing product workflows.
+- name: CPG / Retail
+  summary: >
+    Optimize omni-channel demand sensing, inventory planning, and personalization programs with analytics
+    assets that integrate supply chain, shopper, and marketing signals.

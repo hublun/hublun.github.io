@@ -15,41 +15,34 @@ title: Dulun Research & Consulting
 # Your name to show in the footer
 author: CJ Duan
 
+# Production URL settings
+url: "https://dulun.com"
+baseurl: ""
+
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  PharmacODE: 
-  #Projects:
-      #- Learn-GPT: "https://learngpt.art/new"
-    - SEIR: "https://mc-stan.org/users/documentation/case-studies/boarding_school_case_study.html"
-    - PKPD: "https://mc-stan.org/events/stancon2017-notebooks/stancon2017-margossian-gillespie-ode.html"
-    - DDM: "https://www.page-meeting.org/?abstract=3200"
-    - PBPK: "https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12926"
-    - Torsten: "https://arxiv.org/abs/2109.10184" 
+  Services:
+    - Strategy & Transformation: "/#services"
+    - Managed Analytics: "/#services"
+    - AI Acceleration Labs: "/#services"
 
-  #Publications: "publications"
-  Dulun-LLM:
-    - LlamaIndex: "https://docs.llamaindex.ai/en/latest/examples/pipeline/query_pipeline.html#"
-    - OpenLLM: "https://www.bentoml.com/blog/building-an-intelligent-query-response-system-with-llamaindex-and-openllm"
-    - Audio Box: "https://audiobox.metademolab.com/capabilities/tts_in_context"
-    - Mistral: "https://console.mistral.ai/"
-    - Triton: "https://github.com/run-llama/llama_index/blob/main/docs/examples/llm/nvidia_triton.ipynb"
-    - Must-MIMIC-IV: "https://arxiv.org/abs/2311.07608"
-  #Dulun-OMICS:
-  #Dulun-FinTech: 
-  #Resources:
-    #  - DNA: "http://pyro.ai/examples/"
-    #  - RNA: "https://docs.gpytorch.ai/en/latest/"
-  #   - MCI Talk: "https://youtu.be/vKK_1GvaG0Y"
-  #   - Autonomous Intelligence: "https://youtu.be/VRzvpV9DZ8Y"
-  #   - Gelman's Blog: "https://statmodeling.stat.columbia.edu/"
-  #   - Stan: "https://mc-stan.org/users/documentation/case-studies"
-  #   - Blei Lab: "https://github.com/Blei-Lab"
-  DRC Lab: "https://drclab.github.io/"
-  About DRC: 
-    - HF Site: "https://drclab-dulun-store.static.hf.space"
+  Industries:
+    - Pharma / Healthcare: "/#industries"
+    - AI Agents: "/#industries"
+    - CPG/Retail: "/#industries"
+
+  Insights: "/#insights"
+
+  About: "/aboutme/"
+
+  Contact: "/#contact"
+
+  Resources:
+    - DRC Lab: "https://drclab.github.io/"
+    - HF Storefront: "https://drclab-dulun-store.static.hf.space"
  
 
 ################
@@ -135,24 +128,24 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#333377"
-navbar-text-col: "#fefefe"
-navbar-border-col: "#11dd11"
+navbar-col: "#0B1D3D"
+navbar-text-col: "#FFFFFF"
+navbar-border-col: "#0B1D3D"
 page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+text-col: "#0F172A"
+link-col: "#6366F1"
+hover-col: "#0EA5E9"
+footer-col: "#0B1D3D"
+footer-text-col: "#E2E8F0"
+footer-link-col: "#F8FAFC"
+footer-hover-col: "#0EA5E9"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
 #navbar-img: "/assets/img/bgimage.png"
-footer-img: "/assets/img/bgimage.png"
-page-img: "/assets/img/bgimage.png"
+#footer-img: "/assets/img/bgimage.png"
+#page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
@@ -293,6 +286,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - vendor/
 
 plugins:
   - jekyll-paginate
@@ -300,4 +294,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-

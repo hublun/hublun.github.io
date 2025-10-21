@@ -1,0 +1,27 @@
+{
+  "name": "hublun.github.io",
+  "version": "1.0.0",
+  "description": "[![](https://i.imgur.com/zNBkzj1.png)](https://beautifuljekyll.com/plans/)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hublun/hublun.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hublun/hublun.github.io/issues"
+  },
+  "homepage": "https://github.com/hublun/hublun.github.io#readme",
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}

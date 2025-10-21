@@ -1,5 +1,165 @@
 ---
 layout: home
-title: Dulun R&C = DRC
-subtitle:  Dataism ==>> electronic +  biochemical algorithms
+title: Dulun Research & Consulting
+hero:
+  eyebrow: BREAKING
+  heading: Appeals Court Lifts Block on Responsible AI Deployment Programs
+  subheading: Deployment can move forward after our compliance architects secured a federal clearance on model risk controls for a global launch.
+  meta: 3 MIN READ
+  timestamp: Filed from Washington · October 20, 2025
+  image: /assets/img/classroom.jpeg
+  image_alt: Advisory team briefing an analytics pod
+  image_caption: Advisory teams rehearsing a compliance rollout with client leaders outside our Washington, D.C. workspace.
+  image_credit: "Photo: Dulun Research & Consulting"
+  live_label: LIVE
+  live_heading: U.S. and Australia Draw Up Rare Earth Plan for AI Manufacturing
+  live_summary: Prime ministers signed a minerals framework our advisers drafted to stabilize advanced packaging supply for high-stakes models.
+  live_meta: 7 MIN AGO
+  live_url: /case-study-forecast-modernization/
+  sidebar:
+    meta: PLAYBOOK
+    heading: 18 Quick and Easy AI Launch Plays That Grown-Ups Will Love
+    summary: These recipes for reliable AI governance give teams the confidence to serve models as-is or tweak them to make stakeholders happy.
+    url: /case-study-digital-biomarkers/
+    image: /assets/img/fire-thumb.jpg
+    image_alt: Baking sheet of roasted vegetables
+    image_caption: Kitchen-table prototypes emerging from a Dulun lab sprint.
+show_post_feed: false
 ---
+
+<section class="front-shelf">
+  <div class="front-container">
+    <div class="front-grid">
+      <div class="front-grid-main">
+        <article class="front-module">
+          <span class="front-kicker">What We Do</span>
+          <h2 class="front-headline">Consulting engagements built for measurable outcomes</h2>
+          <div class="front-stack">
+            {% for service in site.data.services %}
+            <div class="front-card">
+              <h3 class="front-card-headline">{{ service.title }}</h3>
+              <p class="front-card-summary">{{ service.description }}</p>
+              {% if service.deliverables %}
+              <ul class="front-dotlist">
+                {% for deliverable in service.deliverables %}
+                <li>{{ deliverable }}</li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+        </article>
+
+        {% assign case_studies = site.data.case_studies %}
+        {% if case_studies %}
+        <article class="front-module">
+          <span class="front-kicker">Featured Engagement</span>
+          <div class="front-feature-grid">
+            <div class="front-feature-main">
+              <h2 class="front-card-headline">{{ case_studies[0].title }}</h2>
+              <p class="front-card-summary">{{ case_studies[0].summary }}</p>
+              <p class="front-card-meta"><strong>Result:</strong> {{ case_studies[0].result }}</p>
+              {% if case_studies[0].link %}
+              <a class="front-link" href="{{ case_studies[0].link | relative_url }}">Explore the engagement →</a>
+              {% endif %}
+            </div>
+            <div class="front-feature-rail">
+              <h3 class="front-feature-heading">More Highlights</h3>
+              <ul class="front-feature-list">
+                {% for item in case_studies offset:1 %}
+                <li>
+                  <h4>{{ item.title }}</h4>
+                  <p>{{ item.summary }}</p>
+                  <p class="front-card-meta"><strong>Result:</strong> {{ item.result }}</p>
+                  {% if item.link %}
+                  <a class="front-link" href="{{ item.link | relative_url }}">View case study →</a>
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </article>
+        {% endif %}
+
+        <article id="insights" class="front-module">
+          <span class="front-kicker">Insights & Updates</span>
+          <h2 class="front-headline">Signals from our client work and research</h2>
+          <div class="front-insights-grid">
+            {% for post in site.posts limit:3 %}
+            <article class="front-insight-card">
+              <div class="front-insight-meta">{{ post.date | date: "%B %d, %Y" }}</div>
+              <h3 class="front-insight-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              {% if post.subtitle %}
+              <p class="front-insight-subtitle">{{ post.subtitle }}</p>
+              {% endif %}
+              <p class="front-insight-summary">{{ post.excerpt | strip_html | truncatewords: 24 }}</p>
+              <a class="front-link" href="{{ post.url | relative_url }}">Read insight →</a>
+            </article>
+            {% endfor %}
+          </div>
+        </article>
+      </div>
+
+      <aside class="front-grid-rail">
+        <article class="front-module">
+          <span class="front-kicker">Industry Depth</span>
+          <h2 class="front-headline">We navigate regulated and high-growth markets</h2>
+          <ul class="front-rail-list">
+            {% for industry in site.data.industries %}
+            <li>
+              <h3>{{ industry.name }}</h3>
+              <p>{{ industry.summary }}</p>
+            </li>
+            {% endfor %}
+          </ul>
+        </article>
+
+        {% assign clients = site.data.clients %}
+        {% if clients %}
+        <article class="front-module">
+          <span class="front-kicker">Trusted By</span>
+          <div class="front-pill-cloud">
+            {% for client in clients %}
+            <span class="front-pill">{{ client.name }}</span>
+            {% endfor %}
+          </div>
+        </article>
+        {% endif %}
+
+        {% assign testimonials = site.data.testimonials %}
+        {% if testimonials %}
+        <article class="front-module">
+          <span class="front-kicker">Client Confidence</span>
+          <div class="front-stack">
+            {% for testimonial in testimonials %}
+            <blockquote class="front-quote">
+              <p>“{{ testimonial.quote }}”</p>
+              <cite>— {{ testimonial.author }}</cite>
+            </blockquote>
+            {% endfor %}
+          </div>
+        </article>
+        {% endif %}
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="front-contact">
+  <div class="front-container">
+    <div class="front-contact-card">
+      <span class="front-kicker">Let’s Talk</span>
+      <h2 class="front-headline">Ready to build your next data advantage?</h2>
+      <p class="front-card-summary">
+        Book a 30-minute working session to align on goals, timelines, and success metrics.
+        Most teams see an actionable plan within one week.
+      </p>
+      <div class="front-contact-actions">
+        <a class="front-button primary" href="mailto:compute@dulun.com?subject=Consultation%20Request">Email compute@dulun.com</a>
+        <a class="front-button secondary" href="{{ '/#insights' | relative_url }}">Review our insights</a>
+      </div>
+    </div>
+  </div>
+</section>

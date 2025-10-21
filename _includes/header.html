@@ -2,7 +2,135 @@
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
-{% if page.cover-img or page.title %}
+{% if page.layout == 'home' and page.hero %}
+  {% assign hero = page.hero %}
+  <header class="front-lead">
+    <div class="front-container">
+      <div class="front-lead-grid">
+        <article class="front-lead-main">
+          {% if hero.eyebrow %}
+          <span class="front-label">{{ hero.eyebrow }}</span>
+          {% endif %}
+          {% if hero.heading %}
+          <h1 class="front-lead-headline">{{ hero.heading }}</h1>
+          {% endif %}
+          {% if hero.subheading %}
+          <p class="front-lead-dek">{{ hero.subheading }}</p>
+          {% endif %}
+          {% if hero.meta or hero.timestamp %}
+          <div class="front-lead-meta">
+            {% if hero.meta %}
+            <span>{{ hero.meta }}</span>
+            {% endif %}
+            {% if hero.timestamp %}
+            <span>{{ hero.timestamp }}</span>
+            {% endif %}
+          </div>
+          {% endif %}
+
+          {% if hero.live_heading %}
+          <div class="front-lead-live">
+            {% if hero.live_label %}
+            <span class="front-live-label">{{ hero.live_label }}</span>
+            {% endif %}
+            <h2 class="front-live-headline">{{ hero.live_heading }}</h2>
+            {% if hero.live_summary %}
+            <p class="front-live-summary">{{ hero.live_summary }}</p>
+            {% endif %}
+            <div class="front-live-meta">
+              {% if hero.live_meta %}
+              <span>{{ hero.live_meta }}</span>
+              {% endif %}
+              {% if hero.live_url %}
+              <a class="front-link" href="{{ hero.live_url | relative_url }}">More updates →</a>
+              {% endif %}
+            </div>
+          </div>
+          {% endif %}
+        </article>
+
+        {% if hero.image %}
+        <figure class="front-lead-art">
+          <img src="{{ hero.image | relative_url }}" alt="{{ hero.image_alt | default: hero.heading }}">
+          {% if hero.image_caption or hero.image_credit %}
+          <figcaption>
+            {% if hero.image_caption %}
+            <span class="front-art-caption">{{ hero.image_caption }}</span>
+            {% endif %}
+            {% if hero.image_credit %}
+            <span class="front-art-credit">{{ hero.image_credit }}</span>
+            {% endif %}
+          </figcaption>
+          {% endif %}
+        </figure>
+        {% endif %}
+
+        {% if hero.sidebar %}
+        {% assign sidebar = hero.sidebar %}
+        <aside class="front-lead-rail">
+          {% if sidebar.meta %}
+          <span class="front-label">{{ sidebar.meta }}</span>
+          {% endif %}
+          {% if sidebar.image %}
+          <figure class="front-rail-art">
+            <img src="{{ sidebar.image | relative_url }}" alt="{{ sidebar.image_alt | default: sidebar.heading }}">
+            {% if sidebar.image_caption %}
+            <figcaption>{{ sidebar.image_caption }}</figcaption>
+            {% endif %}
+          </figure>
+          {% endif %}
+          {% if sidebar.heading %}
+          <h2 class="front-rail-headline">{{ sidebar.heading }}</h2>
+          {% endif %}
+          {% if sidebar.summary %}
+          <p class="front-rail-summary">{{ sidebar.summary }}</p>
+          {% endif %}
+          {% if sidebar.url %}
+          <a class="front-link" href="{{ sidebar.url | relative_url }}">Read more →</a>
+          {% endif %}
+        </aside>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+{% elsif page.hero %}
+  {% assign hero = page.hero %}
+  <header class="header-section consulting-hero">
+    <div class="container-md">
+      <div class="row align-items-center">
+        <div class="col-xl-7 col-lg-8">
+          <div class="hero-copy">
+            {% if hero.eyebrow %}
+            <p class="hero-eyebrow text-uppercase mb-2">{{ hero.eyebrow }}</p>
+            {% endif %}
+            {% if hero.heading %}
+            <h1 class="hero-heading">{{ hero.heading }}</h1>
+            {% endif %}
+            {% if hero.subheading %}
+            <p class="hero-subheading">{{ hero.subheading }}</p>
+            {% endif %}
+            {% if hero.primary or hero.secondary %}
+            <div class="hero-actions">
+              {% if hero.primary %}
+              <a class="btn btn-primary hero-cta" href="{{ hero.primary.url | relative_url }}">{{ hero.primary.label }}</a>
+              {% endif %}
+              {% if hero.secondary %}
+              <a class="btn btn-outline-primary hero-cta-secondary" href="{{ hero.secondary.url | relative_url }}">{{ hero.secondary.label }}</a>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-4 d-none d-lg-block">
+          {% if hero.media %}
+            {% include {{ hero.media }} %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </header>
+{% elsif page.cover-img or page.title %}
 
 {% if page.cover-img %}
   <div id="header-big-imgs" data-num-img={% if page.cover-img.first %}{{ page.cover-img.size }}{% else %}1{% endif %}
@@ -12,9 +140,9 @@
       {% if imginfo[0] %}
       data-img-src-{{ imgnum }}="{{ imginfo[0] | absolute_url }}"
       data-img-desc-{{ imgnum }}="{{ imginfo[1] }}"
-    {% else %}
+{% else %}
       data-img-src-{{ imgnum }}="{{ imginfo | absolute_url }}"
-    {% endif %}
+{% endif %}
     {% endfor %}
     {% endfor %}
   ></div>
@@ -89,7 +217,6 @@
   </div>
 </div>
 </header>
-
 
 {% else %}
 <div class="intro-header"></div>
