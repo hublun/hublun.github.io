@@ -4,4 +4,4 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "ffi", "~> 1.16"
+gem "ffi", "~> 1.15.0"
