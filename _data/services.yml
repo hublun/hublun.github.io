@@ -1,24 +1,27 @@
-- title: Strategy & Transformation
+- title: The 'Year of Agents' Narrative
   description: >
-    Co-create analytics operating models, prioritize high-impact initiatives, and stand up
-    governance that keeps data programs aligned with executive goals.
+    While AI agents show promise, current systems remain brittle and limited in scope. 
+    True autonomous agents require robust error handling, reliable long-term memory, 
+    and the ability to recover from failures—capabilities we're still developing.
   deliverables:
-    - Operating model blueprints
-    - Prioritized roadmaps with ROI guardrails
-    - Change management playbooks
-- title: Managed Analytics Delivery
+    - Most "agents" are still glorified API wrappers
+    - Real autonomy requires self-correction and planning
+    - We're still in the "demo works, production fails" phase
+- title: The Infrastructure Gap
   description: >
-    Embed product-minded data scientists, engineers, and PMs who build, launch, and maintain
-    decision tools that teams rely on every day.
+    The fundamental challenge isn't model capability—it's the surrounding infrastructure. 
+    Agents need reliable tool use, consistent outputs, proper evaluation frameworks, 
+    and systems that degrade gracefully when they inevitably make mistakes.
   deliverables:
-    - Cross-functional delivery pods
-    - Automated reporting and alerting
-    - Ongoing reliability and adoption monitoring
-- title: AI Acceleration Labs
+    - Current LLMs lack persistent memory and context
+    - Tool use remains fragile and error-prone
+    - We need better evaluation beyond benchmarks
+- title: AGI Timeline Reality Check
   description: >
-    Rapidly prototype, validate, and scale AI and LLM use cases from whiteboard concepts to
-    production-ready workflows with stakeholder-ready artifacts.
+    Despite rapid progress, AGI remains at least a decade away. We're getting better at 
+    narrow tasks, but general intelligence requires breakthroughs in reasoning, long-term 
+    planning, and the ability to learn from experience like humans do.
   deliverables:
-    - Use-case discovery workshops
-    - Pilot-to-production playbooks
-    - Adoption and risk dashboards
+    - Scaling laws are slowing down
+    - We're optimizing for benchmarks, not intelligence
+    - True understanding vs. pattern matching gap remains
