@@ -8,6 +8,9 @@ var BeautifulJekyllJS = {
   init : function() {
     setTimeout(BeautifulJekyllJS.initNavbar, 10);
 
+    // Update live date
+    BeautifulJekyllJS.updateLiveDate();
+
     // Shorten the navbar after scrolling a little bit down
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 50) {
@@ -134,6 +137,22 @@ var BeautifulJekyllJS = {
         $("body").removeClass("overflow-hidden");
       }
     });
+  },
+
+  updateLiveDate : function() {
+    const updateDate = function() {
+      const now = new Date();
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      const dateString = now.toLocaleDateString('en-US', options);
+      const dateEl = document.getElementById('live-date');
+      if (dateEl) {
+        dateEl.textContent = dateString;
+      }
+    };
+    
+    updateDate();
+    // Update every minute
+    setInterval(updateDate, 60000);
   }
 };
 

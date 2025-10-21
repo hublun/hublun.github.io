@@ -5,11 +5,11 @@ layout: null
 @import url("pygment_highlights.css");
 
 :root {
-  --brand-ink: #111111;
+  --brand-ink: #6b46c1;
   --brand-slate: #1b1b1d;
   --brand-muted: #555555;
   --brand-sky: #1a3e73;
-  --brand-indigo: #326891;
+  --brand-indigo: #553c9a;
   --brand-sand: #f8f7f3;
   --brand-mist: #e2e2e2;
   --brand-white: #ffffff;
@@ -162,8 +162,9 @@ img {
 }
 
 .nyt-topline-center {
-  font-weight: 600;
-  color: #ffd400;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #6b46c1;
 }
 
 .nyt-market-positive {
@@ -220,13 +221,13 @@ img {
 
 .nyt-navbar .nav-link {
   padding: 0.875rem 1.1rem;
-  color: var(--brand-ink);
+  color: #6b46c1 !important;
   font-weight: 600;
 }
 
 .nyt-navbar .nav-link:hover,
 .nyt-navbar .nav-link:focus {
-  color: var(--brand-indigo);
+  color: #553c9a !important;
 }
 
 .nyt-navbar .dropdown-menu {
