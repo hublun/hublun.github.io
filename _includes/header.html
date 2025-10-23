@@ -63,6 +63,26 @@
           </figcaption>
           {% endif %}
         </figure>
+        {% elsif site.data.hero_images %}
+        <figure class="front-lead-art" id="rotating-hero">
+          <img src="" alt="" id="hero-image">
+          <figcaption>
+            <span class="front-art-caption" id="hero-caption"></span>
+            <span class="front-art-credit" id="hero-credit"></span>
+          </figcaption>
+        </figure>
+        <script>
+          (function() {
+            var heroImages = {{ site.data.hero_images | jsonify }};
+            var randomIndex = Math.floor(Math.random() * heroImages.length);
+            var selectedImage = heroImages[randomIndex];
+            
+            document.getElementById('hero-image').src = selectedImage.image;
+            document.getElementById('hero-image').alt = selectedImage.alt;
+            document.getElementById('hero-caption').textContent = selectedImage.caption || '';
+            document.getElementById('hero-credit').textContent = selectedImage.credit || '';
+          })();
+        </script>
         {% endif %}
 
         {% if hero.sidebar %}

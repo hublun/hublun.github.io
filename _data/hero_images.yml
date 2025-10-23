@@ -1,0 +1,19 @@
+- image: /assets/img/andrew-ng-deep-learning-ai-coursera-course.jpg
+  alt: Andrew Ng presenting on deep learning and AI
+  caption: Andrew Ng, pioneer in deep learning and AI education, delivering insights on machine learning fundamentals.
+  credit: "Photo: Coursera"
+
+- image: /assets/img/path.jpg
+  alt: Data science pathway
+  caption: Exploring analytical pathways through complex datasets
+  credit: "Photo: Stock"
+
+- image: /assets/img/earth.jpg
+  alt: Global analytics perspective
+  caption: Bringing a global perspective to data-driven solutions
+  credit: "Photo: Stock"
+
+- image: /assets/img/fireworks.jpg
+  alt: Innovation and discovery
+  caption: Celebrating breakthroughs in pharmaceutical modeling
+  credit: "Photo: Stock"
