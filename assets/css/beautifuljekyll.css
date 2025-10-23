@@ -161,12 +161,17 @@ img {
   align-items: center;
   justify-content: space-between;
   min-height: 2.25rem;
+  position: relative;
 }
 
 .nyt-topline-center {
   font-weight: 700;
   font-size: 0.85rem;
   color: #6b46c1 !important;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
 
 .nyt-market-positive {
