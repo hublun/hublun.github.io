@@ -1,8 +1,11 @@
 ---
 layout: page
-title: Forecast Modernization for Growth SaaS
+title: Forecast Modernization for Growth CPG
 subtitle: Unifying GTM and product signals to deliver a single source of financial truth.
-permalink: /case-study-forecast-modernization/
+client: Enterprise SaaS Platform
+result: "Accuracy vs. Bias"
+order: 2
+featured: true
 ---
 
 ## Engagement Snapshot

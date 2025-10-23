@@ -4,11 +4,11 @@
   summary: >
     Partnered with clinical, regulatory, and data science leaders to stand up a reusable analytics
     platform spanning ingestion, modeling, and stakeholder reporting.
-  link: "/case-study-digital-biomarkers/"
+  link: "/case_studies/01-digital-biomarkers/"
 - title: Forecast Modernization for Growth SaaS
   client: Enterprise SaaS
   result: "Improved forecast accuracy by 18% within two quarters."
   summary: >
     Rebuilt the revenue intelligence stack, unifying CRM, usage telemetry, and marketing signals to
     inform GTM prioritization and board reporting.
-  link: "/case-study-forecast-modernization/"
+  link: "/case_studies/02-forecast-modernization/"

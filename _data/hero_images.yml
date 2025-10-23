@@ -1,7 +1,47 @@
-- image: /assets/img/andrew-ng-deep-learning-ai-coursera-course.jpg
+- image: /assets/img/hero/andrew-ng-deep-learning-ai-coursera-course.jpg
   alt: Andrew Ng presenting on deep learning and AI
-  caption: Andrew Ng, delivering insights on machine learning fundamentals.
+  caption: Andrew Ng, pioneer in deep learning and AI education, delivering insights on machine learning fundamentals.
   credit: "Photo: Coursera"
+
+- image: /assets/img/hero/earth.jpg
+  alt: Global analytics perspective
+  caption: Bringing a global perspective to data-driven solutions
+  credit: "Photo: Stock"
+
+- image: /assets/img/hero/fireworks.jpg
+  alt: Innovation and discovery
+  caption: Celebrating breakthroughs in pharmaceutical modeling
+  credit: "Photo: Stock"
+
+- image: /assets/img/hero/classroom.jpeg
+  alt: Learning and development
+  caption: Empowering teams through knowledge transfer and training
+  credit: "Photo: Stock"
+
+- image: /assets/img/hero/Dirichlet.png
+  alt: Dirichlet distribution visualization
+  caption: Exploring probabilistic models and Bayesian inference
+  credit: "Photo: Research"
+
+- image: /assets/img/hero/1760808752004.jpg
+  alt: Research and analytics
+  caption: Driving insights through advanced analytical techniques
+  credit: "Photo: Stock"
+
+- image: /assets/img/hero/hello_world.jpeg
+  alt: Technology and innovation
+  caption: Building solutions at the intersection of science and technology
+  credit: "Photo: Stock"
+
+- image: /assets/img/hero/prior_pc.png
+  alt: Principal components analysis
+  caption: Dimensionality reduction and pattern discovery in complex data
+  credit: "Photo: Research"
+
+- image: /assets/img/hero/sars.jpg
+  alt: Genomic research
+  caption: Advancing understanding through computational biology and bioinformatics
+  credit: "Photo: Research"
 
 - image: /assets/img/classroom.jpeg
   alt: Data science pathway

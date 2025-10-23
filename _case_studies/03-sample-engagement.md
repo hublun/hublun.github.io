@@ -1,7 +1,7 @@
 ---
 title: Dynamic Pricing & Revenue Optimization Engine
 client: Global Hospitality Chain
-result: "Increased revenue per available room by 27% while improving occupancy rates."
+result: "mROAS"
 order: 3
 featured: false
 ---
