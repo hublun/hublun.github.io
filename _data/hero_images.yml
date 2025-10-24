@@ -53,29 +53,11 @@
   caption: Building trusted relationships through excellence in delivery
   credit: "Photo: Stock"
 
-- image: /assets/img/hero/laser-thumb.jpg
-  alt: Precision and accuracy
-  caption: Delivering high-precision analytics and modeling solutions
-  credit: "Photo: Stock"
 
-- image: /assets/img/hero/sdcd.jpg
-  alt: Causal discovery
-  caption: Uncovering causal relationships in complex systems
-  credit: "Photo: Research"
 
 - image: /assets/img/hero/soccer.jpeg
   alt: Team performance analytics
   caption: Sports analytics and performance optimization
   credit: "Photo: Sports"
 
-- image: /assets/img/hero/surv0.png
-  alt: Survival analysis
-  caption: Time-to-event modeling and censored data analysis
-  credit: "Photo: Research"
 
-
-
-- image: /assets/img/hero/vae.png
-  alt: Variational autoencoder
-  caption: Deep learning for dimensionality reduction and generative modeling
-  credit: "Photo: Research"
