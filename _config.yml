@@ -24,19 +24,20 @@ baseurl: ""
 ###############################################
 
 navbar-links:
-  Services:
-    - Strategy & Transformation: "/#services"
-    - Managed Analytics: "/#services"
-    - AI Acceleration Labs: "/#services"
-
+  Models:
+    - Media Mix: "/#services"
+    - PKPD: "/#services"
+    - State Space: "/#services"
+    - Crops Yield: "/#services"
   Industries:
     - Pharma / Healthcare: "/#industries"
     - AI Agents: "/#industries"
     - CPG/Retail: "/#industries"
+    - Crops / Agriculture: "/#industries"
 
   Research: "/#insights"
 
-  About: "/about/"
+  About: "https://drclab.github.io/"
 
   Contact: "/#contact"
 
@@ -67,7 +68,7 @@ round-avatar: true
 social-network-links:
   email: "compute@dulun.com"
 # rss: true  # remove this line if you don't want to show an RSS link at the bottom
-#  facebook: deanattali
+  facebook: dataking
   github: hublun
 #  twitter: daattali
 #  patreon: DeanAttali
@@ -106,7 +107,7 @@ url-pretty: "www.dulun.com"
 
 # Excerpt word length - Truncate tgh-repo: daattali/beautiful-jekyll
 # Add a search button to the navbar
-post_search: true
+post_search: false
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: false
@@ -114,7 +115,7 @@ edit_page_button: false
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
 # See https://github.com/daattali/beautiful-jekyll/issues/765 to understand the issue this setting can solve
-navbar-var-length: false
+navbar-var-length: true
 
 # The keywords to associate with your website, for SEO purposes
 #keywords: "my,list,of,keywords"
@@ -127,7 +128,7 @@ navbar-var-length: false
 
 navbar-col: "#0B1D3D"
 navbar-text-col: "#FFFFFF"
-navbar-border-col: "#0B1D3D"
+navbar-border-col: "#0B1233"
 page-col: "#FFFFFF"
 text-col: "#0F172A"
 link-col: "#6366F1"
