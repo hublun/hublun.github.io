@@ -73,10 +73,7 @@
   caption: Time-to-event modeling and censored data analysis
   credit: "Photo: Research"
 
-- image: /assets/img/hero/thumb.png
-  alt: Data visualization
-  caption: Transforming data into compelling visual narratives
-  credit: "Photo: Research"
+
 
 - image: /assets/img/hero/vae.png
   alt: Variational autoencoder
