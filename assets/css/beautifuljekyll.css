@@ -784,6 +784,9 @@ footer .list-inline {
   padding: 0;
   margin-bottom: 1.875rem;
 }
+footer .footer-links .fa-circle {
+  color: #404040 !important;
+}
 footer .copyright {
   font-family: 'Libre Franklin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;

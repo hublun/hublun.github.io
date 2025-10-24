@@ -13,7 +13,7 @@
 title: Dulun Research & Codexing
 
 # Your name to show in the footer
-author: CJ Duan
+author: DRC Lab
 
 # Production URL settings
 url: "https://dulun.com"
@@ -34,15 +34,12 @@ navbar-links:
     - AI Agents: "/#industries"
     - CPG/Retail: "/#industries"
 
-  Insights: "/#insights"
+  Research: "/#insights"
 
-  About: "/aboutme/"
+  About: "/about/"
 
   Contact: "/#contact"
 
-  Resources:
-    - DRC Lab: "https://drclab.github.io/"
-    - HF Storefront: "https://drclab-dulun-store.static.hf.space"
  
 
 ################
@@ -69,7 +66,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "compute@dulun.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+# rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
   github: hublun
 #  twitter: daattali
@@ -77,7 +74,7 @@ social-network-links:
 #  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: drclab
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -105,7 +102,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "dulun.com"
+url-pretty: "www.dulun.com"
 
 # Excerpt word length - Truncate tgh-repo: daattali/beautiful-jekyll
 # Add a search button to the navbar
@@ -299,6 +296,7 @@ exclude:
   - screenshot.png
   - docs/
   - vendor/
+
 
 plugins:
   - jekyll-paginate
