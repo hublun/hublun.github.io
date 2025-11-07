@@ -3,19 +3,9 @@
   caption: Andrew Ng, pioneer in deep learning and AI education, delivering insights on machine learning fundamentals.
   credit: "Photo: Coursera"
 
-- image: /assets/img/hero/earth.jpg
-  alt: Global analytics perspective
-  caption: Bringing a global perspective to data-driven solutions
-  credit: "Photo: Stock"
-
-- image: /assets/img/hero/fireworks.jpg
-  alt: Innovation and discovery
-  caption: Celebrating breakthroughs in pharmaceutical modeling
-  credit: "Photo: Stock"
-
 - image: /assets/img/hero/classroom.jpeg
   alt: Learning and development
-  caption: Empowering teams through knowledge transfer and training
+  caption: Future Higher Education
   credit: "Photo: Stock"
 
 - image: /assets/img/hero/Dirichlet.png
@@ -23,10 +13,6 @@
   caption: Exploring probabilistic models and Bayesian inference
   credit: "Photo: Research"
 
-- image: /assets/img/hero/1760808752004.jpg
-  alt: Research and analytics
-  caption: Driving insights through advanced analytical techniques
-  credit: "Photo: Stock"
 
 - image: /assets/img/hero/hello_world.jpeg
   alt: Technology and innovation
@@ -43,21 +29,18 @@
   caption: Advancing understanding through computational biology and bioinformatics
   credit: "Photo: Research"
 
-- image: /assets/img/hero/gpt.png
-  alt: AI and machine learning
-  caption: Leveraging large language models for advanced analytics
+
+- image: /assets/img/hero/Queen_Prize.jpg
+  alt: Queen's Prize recognition
+  caption: Celebrating excellence in research and innovation
+  credit: "Photo: Award"
+
+
+
+- image: /assets/img/hero/Andrej_Karpathy_2025.jpg
+  alt: Andrej Karpathy on AI advancements
+  caption: Exploring the frontiers of artificial intelligence and neural networks
   credit: "Photo: Research"
 
-- image: /assets/img/hero/handshake.png
-  alt: Partnership and collaboration
-  caption: Building trusted relationships through excellence in delivery
-  credit: "Photo: Stock"
-
-
-
-- image: /assets/img/hero/soccer.jpeg
-  alt: Team performance analytics
-  caption: Sports analytics and performance optimization
-  credit: "Photo: Sports"
 
 
